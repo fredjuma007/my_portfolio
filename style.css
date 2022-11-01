@@ -168,7 +168,7 @@ nav ul li a:hover{
     transition: all 0.2s ease-out;
 }
 .projects-div:hover{
-    transform: rotate(10deg);
+    transform: rotate(10deg); /*the bouncing effect*/
 }
 .div-1{
     top: 100px;
