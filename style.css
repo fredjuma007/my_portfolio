@@ -339,5 +339,25 @@ footer .social i{
 .social i:hover{
     color: palevioletred;
 }
-
+/*back to top button*/
+.top {
+    --offset: 50px; 
+    
+    position: sticky;
+    bottom: 90px;       
+    place-self: end;
+    margin-top: calc(100vh + var(--offset));
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    color: rgb(29, 20, 20);
+    background: rgb(190, 130, 9);
+    border-radius: 100px;
+    white-space: nowrap;
+    left: 1300px;
+  }
+  html,
+  body {
+    scroll-behavior: smooth; /*the scroll effect*/
+  }
 /*Author: FRED JUMA*/
